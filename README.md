@@ -1,12 +1,12 @@
 <img src="extras/imagenes/html5-css3.jpg">
 
-# Curso: Desarrollo Web con HTML | código 59491
+# Curso: Desarrollo Web con HTML | código 62623
 
 <img src="https://img.shields.io/badge/HTML-F38454?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS-1490fc?&style=for-the-badge&logo=css3&logoColor=white">
 
 > Curso: Desarrollo Web con HTML |  
-> Martes y Jueves 14hs a 16hs (Arg) |  
-> Código: 59491 |  
+> Lunes, Miércoles y Viernes 14hs a 17hs (Arg) |  
+> Código: 62623 |  
 > sensei: Marcos Pinardi |  
 
 
@@ -31,7 +31,8 @@ Atom: <https://atom.io/>
 
 ## Sintáxis
 
->La sintáxis de HTML corresponde a un sistema de contenedores	
+>La sintáxis de HTML corresponde a un sistema de contenedores.   
+ su fórmula base es:   	
 
 	<elemento>
 		objeto

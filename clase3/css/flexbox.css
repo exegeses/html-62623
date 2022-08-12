@@ -17,7 +17,7 @@ main{
     /*flexbox*/
     display: flex;
     /* eje horizontal */
-    /*justify-content: start;
+    /*justify-content: start; 
     justify-content: center;
     justify-content: end;*/
     justify-content: space-between;

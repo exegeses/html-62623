@@ -62,3 +62,32 @@ header{
         width: 400px; 
         margin-top: 24px;
     }
+
+/*##  main  ##*/
+main{
+    width: 1100px;
+    margin: auto;
+}
+    /*##  letsGo  ##*/
+    #letsGo{
+        height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; /* invierte ejes */
+        justify-content: center;
+        align-items: center;
+    
+    }
+        #letsGo h2{
+            width: 1100px;
+            text-align: center;
+            font-size: 32px;
+            color: #FFB968;
+            /*margin-top: 100px;*/
+        }
+        #letsGo p{
+            width: 600px;
+            /*margin: auto;*/
+            text-align: center;
+            margin-top: 24px;
+        }

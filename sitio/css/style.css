@@ -23,4 +23,21 @@ header{
     header a img{
         width: 60px;
         vertical-align: middle;
+        margin-right: 16px;
     }
+
+    header a{
+        text-decoration: none; /* quitar subrayado */
+        color: #707070;
+        font-weight: 600;
+    }
+
+    header nav a{
+        padding: 12px;
+    }
+
+/*##  heroBanner  ##*/
+#heroBanner{
+    height: 500px;
+    background-image: url();
+}

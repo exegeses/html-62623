@@ -91,3 +91,51 @@ main{
             text-align: center;
             margin-top: 24px;
         }
+
+    /*##  Promos  ##*/
+
+    #promos{
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos */
+    }
+
+        #promo1, #promo2{
+            width: 550px;
+            height: 550px;
+            color: #fff;
+            /* padding: 100px 80px 0px 80px; */
+            padding: 100px 80px;
+        }
+        #promo1{
+            background-color: #807871;
+        }
+        #promo2{
+            background-color: #E3B684;
+        }
+
+            #promos h2{
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 32px;
+            }
+
+/*##  separador  ##*/
+    #separador{
+        margin: 80px 0px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFB968;
+        text-align: center;
+    }
+
+/*##  historia  ##*/
+
+#historia{
+    display: flex;
+    justify-content: space-between;
+}
+    #historia article{
+        width: 339px;
+        height: 450px;
+        background-color: #807871;
+    }

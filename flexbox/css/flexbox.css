@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    font-weight: 300;
+    color: #666;
+    font-size: 1.2em;
+    width: 768px;
+    margin: auto;
+}
+
+/* agrupamiento */
+#contenedor1, 
+#contenedor2,
+#contenedor3 {
+    background-color: #ccc;
+    height: 500px;
+    margin: 24px 0px;
+}
+
+.cajas {
+    background-color: rgb(159, 247, 132);
+    width: 200px;
+    height: 200px;
+}
+
+/* horizontal */
+#contenedor1{
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    flex-direction: row; /* predeterminado */
+    /* flex-direction: row-reverse; /* invierte el orden de fila */
+    /* flex-direction: column; /* se ponen en columna */
+    /* flex-direction: column-reverse; /* se ponen en columna orden inverso */
+    /* justify-content: start; /* predeterminado: a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: space-between; /* espacio ENTRE las cajas */
+    /* justify-content: space-around; /* espacio ENTRE las cajas */
+    justify-content: space-evenly; /* espacio ENTRE las cajas */
+}
+
+/* vertical */
+#contenedor2{
+    display: flex;
+    /* align-items: start; /* predeterminado: arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+}
+
+#contenedor3{
+    display: flex;
+    justify-content: space-between; /* separación de cajas  */
+    align-items: center;  /* cerntrado vertical */
+}

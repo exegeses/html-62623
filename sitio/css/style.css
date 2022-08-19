@@ -138,4 +138,19 @@ main{
         width: 339px;
         height: 450px;
         background-color: #807871;
+        color: #fff;
     }
+
+    #historia img{
+        width: 339px;
+        height: 290px;
+    }
+        #historia h3 {
+            font-weight: 600 ;
+            margin: 20px 20px;
+            font-size: 30px;
+        }
+    
+        #historia p {
+            margin: 20px 20px;
+        }

@@ -177,8 +177,12 @@ main{
         border: 1px solid #cecece;
         border-radius: 12px; /* border redondeados */
     }
+    #formulario form label{
+        margin-top: 16px;
+        display: block;
+    }
 
-    #formulario form input{
+    #formulario form input, textarea{
         display: block;
         width: 100%;
         margin-top: 8px;
@@ -191,3 +195,38 @@ main{
         border: 1px solid #cecece;
         border-radius: 8px;
     }
+    textarea{
+        height: 104px;
+        /*resize: none;*/
+        /*max-width: 100%;
+        min-width: 100%;*/
+        resize: vertical;
+    }
+
+    button{
+        background-color: #F7BB74;
+        color: #5a5a5a;
+        font-weight: 600;
+        border: 1px solid #FA9E30;
+        border-radius: 8px;
+
+        display: block;
+        width: 100%;
+        margin-top: 24px;
+        font-family: raleway;
+        font-size: 16px;
+        padding: 8px;
+
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #ffac47;
+        color: #323232;
+    }
+
+/*##  footer  ##*/
+
+footer{
+    background-color: #807871;
+    height: 160px;
+}

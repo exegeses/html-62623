@@ -84,14 +84,55 @@
         <form action="procesa.php" method="post">
             
             <label>Nombre:
-                <input type="text" name="nombre">
+                <input type="text" name="nombre" required>
             </label>
             
+            <label>Email:
+                <input type="email" name="email" required>
+            </label>
+
+            <label>Comentarios:
+                <textarea name="comentarios" required></textarea>
+            </label>
+
+            <button>Enviar</button>
+
         </form>
 
         
 
     </section>
+
+    <footer>
+
+        <!-- redes sociales -->
+        <div></div>
+
+        <!-- enlaces internos -->
+        <nav>
+            <ul>
+                <li class="tituloLista">Acerca</li>
+                <li>Historia</li>
+                <li>Team</li>
+                <li>Compromiso</li>
+                <li>Términos</li>
+            </ul>
+            <ul>
+                <li class="tituloLista">Servicios</li>
+                <li>Promos</li>
+                <li>Contratar</li>
+                <li>Métodos de pago</li>
+            </ul>
+             <ul>
+                 <li class="tituloLista">Otros</li>
+                 <li>Contáctenos</li>
+                 <li>Ayuda</li>
+                 <li>Privacidad</li>
+             </ul>
+        </nav>
+
+    </footer>
+
 
 </body>
 </html>

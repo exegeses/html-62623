@@ -13,6 +13,12 @@ body{
     font-size: 16px;
     font-weight: 300;
 }
+
+/* globales */
+a{
+    text-decoration: none; /* quitar subrayado */
+}
+
 /* encabezado */
 header{
     width: 1100px;
@@ -31,7 +37,6 @@ header{
     }
 
     header a{
-        text-decoration: none; /* quitar subrayado */
         color: #707070;
         font-weight: 600;
     }
@@ -228,5 +233,35 @@ main{
 
 footer{
     background-color: #807871;
-    height: 160px;
 }
+
+    #contenedor-footer{
+        width: 1100px;
+        height: 160px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #contenedor-footer img{
+        width: 32px;
+        margin-right: 10px;
+    }
+
+    #contenedor-footer nav{
+        display: flex;
+        color: #fff;
+    }
+    #contenedor-footer ul {
+        list-style: none;
+        margin-left: 53px;
+    }
+    .tituloLista{
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #contenedor-footer  li{
+        margin-bottom: 4px;
+    }
+
